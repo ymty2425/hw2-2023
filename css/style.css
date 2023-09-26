@@ -103,6 +103,7 @@ div {
 
 footer {
     background: linear-gradient(#000000, #0000ff 25%, #0066ff 70%, #000000);
+    border: 5px solid #FFFFFF;
 }
 
 footer p {
