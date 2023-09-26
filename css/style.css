@@ -35,7 +35,9 @@ img {
 div {
     min-height: 125px;
     padding: 20px;
-    border: 2px solid #FFFFFF;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFFFFF;
 }
 
 .introduction {
