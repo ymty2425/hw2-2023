@@ -35,7 +35,7 @@ img {
 div {
     min-height: 125px;
     padding: 20px;
-    border: 2px solid #FFFFFF
+    border: 2px solid #FFFFFF;
 }
 
 .introduction {
@@ -45,11 +45,11 @@ div {
 }
   
 .red {
-    background-color: #FF0505;
+    background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
 }
 
 /*.red h2 {
@@ -65,20 +65,19 @@ div {
   }
 */
 .blue {
-    background-color: #4D4DFF;
+    background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
     color: #C4C4C4;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border-right-width: 5px;
+    border-top-width: 2px;
 }
 
-/*.blue h2 {
-    font-size: 0;
+.blue h2 {
     color: #C4C4C4;
 }
 
-.blue h2::before {
+/*.blue h2::before {
     content: "Blue";
     display: block;
     font-size: 35px;
@@ -90,16 +89,16 @@ div {
     text-align: right;
     margin-left: 50px;
     color: #707070;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
 }
 
 .green {
-    background-color: #008F00;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border-right-width: 5px;
+    border-top-width: 2px;
 }
 
 footer {
